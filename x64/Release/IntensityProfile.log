@@ -1,0 +1,39 @@
+﻿Build started 14-12-2021 16:16:45.
+     1>Project "D:\IntensityProfile - Copy\IntensityProfile\IntensityProfile.vcxproj" on node 2 (Build target(s)).
+     1>QtRccSetDependencies:
+         "C:\libraries\qt5\qtbase\bin\rcc.exe" --list "IntensityProfile.qrc" > "x64\Release\rcc_list.txt" 2> nul
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Daheng Imavision\DH-CGCard\SDK\VC\Inc" /I"C:\Program Files\MATRIX VISION\mvIMPACT Acquire" /IC:\Users\FUNDUS\OneDrive\Desktop\cudaEngine\OCTENGINE\OCTEngineCuda /I"C:\Program Files\Teledyne e2v\CameraCmosOctUsb3\SDK\inc" /I.\GeneratedFiles /I. /IC:\libraries\qt5\qtbase\include /I.\GeneratedFiles\Release /IC:\libraries\qt5\qtbase\include\QtPrintSupport /IC:\libraries\qt5\qtbase\include\QtSql /IC:\libraries\qt5\qtbase\include\QtCore /IC:\libraries\qt5\qtbase\include\QtGui /IC:\libraries\qt5\qtbase\include\QtANGLE /IC:\libraries\qt5\qtbase\include\QtQuickWidgets /IC:\libraries\qt5\qtbase\include\QtQuick /IC:\libraries\qt5\qtbase\include\QtUiTools /IC:\libraries\qt5\qtbase\include\QtWidgets /IC:\libraries\qt5\qtbase\include\QtConcurrent /I"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v8.0\common\inc" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" /I"D:\Demo program for Galvo\64bit" /IC:\libraries\qt5\qtbase\include\QtOpenGL /IC:\libraries\qt5\qtbase\include\QtOpenGLExtensions /I"C:\Program Files\MATRIX VISION\mvIMPACT Acquire\apps\Common" /IC:\opencv330\opencv\build\include /nologo /W1 /WX- /MP /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D NDEBUG /D QT_PRINTSUPPORT_LIB /D QT_SQL_LIB /D QT_CORE_LIB /D QT_GUI_LIB /D QT_QUICKWIDGETS_LIB /D QT_QUICK_LIB /D QT_UITOOLS_LIB /D QT_WIDGETS_LIB /D QT_CONCURRENT_LIB /D QT_OPENGL_LIB /D QT_OPENGLEXTENSIONS_LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt IntensityProfile.cpp
+         IntensityProfile.cpp
+         Automatically linking with mvDeviceManager.lib
+         Automatically linking with mvDisplay.lib
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\IntensityProfile - Copy\x64\Release\\IntensityProfile.exe" /NOLOGO /LIBPATH:"C:\Program Files\Daheng Imavision\DH-CGCard\SDK\VC\Lib\x64" /LIBPATH:"C:\Program Files\MATRIX VISION\mvIMPACT Acquire\lib\win\x64" /LIBPATH:"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v8.0\common\lib\x64" /LIBPATH:"C:\Program Files\Teledyne e2v\CameraCmosOctUsb3\SDK\lib\x64" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64" /LIBPATH:C:\Users\FUNDUS\OneDrive\Desktop\cudaEngine\bin\win64\Release /LIBPATH:C:\libraries\qt5\qtbase\lib /LIBPATH:"D:\Demo program for Galvo\64bit" /LIBPATH:"D:\IntensityProfile - Copy\x64\Release" /LIBPATH:C:\opencv330\opencv\build\x64\vc14\lib cublas.lib glew64.lib freeglut.lib qtmain.lib CamCmosOctUsb3.lib Qt5PrintSupport.lib Qt5Sql.lib Qt5Core.lib Qt5Gui.lib Qt5QuickWidgets.lib Qt5Quick.lib Qt5UiTools.lib Qt5Widgets.lib Qt5Concurrent.lib cuda.lib cufft.lib cudart_static.lib OCTEngineGPU.lib HM_Comm.lib HM_HashuScan.lib HM_UDMGenerator.lib Qt5OpenGL.lib opengl32.lib glu32.lib Qt5OpenGLExtensions.lib mvDeviceManager.lib mvDisplay.lib CGVideo.lib CGVidEx.lib opencv_world330.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"D:\IntensityProfile - Copy\x64\Release\IntensityProfile.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"D:\IntensityProfile - Copy\x64\Release\IntensityProfile.lib" /MACHINE:X64 x64\Release\AppaGalvo.obj
+         x64\Release\cameraSettings.obj
+         x64\Release\cgSnapCameraWidget.obj
+         x64\Release\drawpattern.obj
+         x64\Release\fovcamera.obj
+         x64\Release\galvo.obj
+         x64\Release\IntensityProfile.obj
+         x64\Release\linescancamera.obj
+         x64\Release\main.obj
+         x64\Release\octCMOSCamera.obj
+         x64\Release\openGLWidget.obj
+         x64\Release\qcustomplot.obj
+         x64\Release\qrc_IntensityProfile.obj
+         x64\Release\moc_IntensityProfile.obj
+         x64\Release\moc_qcustomplot.obj
+         x64\Release\moc_cgSnapCameraWidget.obj
+         x64\Release\moc_drawpattern.obj
+         x64\Release\moc_AppaGalvo.obj
+         x64\Release\moc_galvo.obj
+         x64\Release\moc_cameraSettings.obj
+         x64\Release\moc_openGLWidget.obj
+         x64\Release\moc_octCMOSCamera.obj
+            Creating library D:\IntensityProfile - Copy\x64\Release\IntensityProfile.lib and object D:\IntensityProfile - Copy\x64\Release\IntensityProfile.exp
+         IntensityProfile.vcxproj -> D:\IntensityProfile - Copy\x64\Release\IntensityProfile.exe
+     1>Done Building Project "D:\IntensityProfile - Copy\IntensityProfile\IntensityProfile.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.48

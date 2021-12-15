@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="IntensityProfile">
+    <file>download.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>logo.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>images.jpg</file>
+  </qresource>
+</RCC>
